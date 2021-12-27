@@ -9,16 +9,18 @@ public class ciftSayiBul {
         System.out.print("Bir sayı girin:");
         int number1 = inp.nextInt();
         int toplam=0;
+        int number=0;
 
         for(int i=0; i<=number1; i++)
         {
             if((i%3==0) && (i%4==0))
             {
                 toplam+=i;
+                number++;
             }
         }
-
-        System.out.print("3 ve 4 e bölünen sayıların toplamı:"+toplam);
+        double ortalama = toplam/number;
+        System.out.print("3 ve 4 e bölünen sayıların ortalaması:"+ortalama);
         
     }
     
