@@ -8,17 +8,23 @@ public class DonguPratik3 {
 
         System.out.print("Lütfen bir sayı girin:");
         int sayi = inp.nextInt();
-        int pow5=0;
-        int pow4=0;
+        
+        System.out.println("4 un katları:");
 
-        System.out.println("4 ve 5 in kuvvetleri:");
+        for(int i=4; i<=sayi; i*=4)
+        {   
+            System.out.print(" "+i);
+        }
+        System.out.println();
+        System.out.println("5 in katları:");
 
-        while(pow4<sayi && pow5<sayi){
-            pow4*=pow4;
-            pow5*=pow5;
-            System.out.println(""+pow4+" "+pow5);
+        for(int i=5; i<=sayi; i*=5)
+        {   
+            System.out.print(" "+i);
         }
         
+        
+   
 
     }
 }
