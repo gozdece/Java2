@@ -1,4 +1,4 @@
-package patikaDev;
+package patikaDev.Donguler;
 
 import java.util.Scanner;
 
