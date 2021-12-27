@@ -2,7 +2,7 @@ package patikaDev.Donguler;
 
 import java.util.Scanner;
 
-public class DongulerPratik6 {
+public class DonguPratik6 {
     public static void main(String[] args) {
         
         Scanner inp = new Scanner(System.in);
