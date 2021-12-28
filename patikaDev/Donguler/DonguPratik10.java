@@ -38,6 +38,27 @@ public class DonguPratik10 {
                 break;
             }
         }
+        int i = enKucuk;
+        while(enKucuk>1)
+        {
+            if(numberOne%i==0 && numberTwo%i==0)
+            {
+                System.out.println("Ebob:"+i);
+                break;
+            }
+            i--;
+        }
+
+        int x=1;
+        while(enKucuk<numberOne*numberTwo)
+        {
+            if(x%numberOne==0 && x%numberTwo==0)
+            {
+                System.out.println("Ekok:"+x);
+                break;
+            }
+            x++;
+        }
     }
     
 }
